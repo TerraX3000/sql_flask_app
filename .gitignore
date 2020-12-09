@@ -1,4 +1,3 @@
 set_env
 sql_flask_venv
-*.db
 *.pyc
