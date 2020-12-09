@@ -1,0 +1,10 @@
+<html>
+   <body>
+      <h1> {{title}} </h1>
+      {% if testLogs %}
+      {% for testLog in testLogs %}
+      <p> {{testLog.name}} {{testLog.value}} </p>
+      {% endfor %}
+      {% endif %}
+   </body>
+</html>
